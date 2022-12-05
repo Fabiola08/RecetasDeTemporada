@@ -8,11 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-    <link rel="stylesheet" href="styles.css">
+   
 <body>
     <div class="container mt-5">
         <div class="jumbotron">
@@ -35,34 +31,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
-        <div class="jumbotron">
-            <h1>Pavo</h1>
-            <h1>4hr  30min de preparación</h1>
-            <h1>Para 12 personas</h1>
-            <p class="title">Ingredientes:</p>
-        <ul class="list">
-          <li>1 taza de crema</li>
-          <li>½ taza de leche condensada</li>
-          <li>½ taza de nueces en mitades</li>
-          <li>1 taza de piña en almíbar, picada</li>
-          <li>2 manzanas amarillas</li>
-          <li>½ taza de cerezas en almíbar para decorar</li>
-        </ul>
- 
-        </div>
-        <div id="salir">
-            <button class="btn btn-outline-danger" id="btnSalir">Salir</button>
-        </div>
-    </div>
-
     <script>
-
-        window.addEventListener('load', function(){
-            if(localStorage.getItem('sesion')==null){
-                window.location.replace('./receta.html', '_self')
-            }
-        })
 
         const boton=document.getElementById('btnSalir');
         boton.addEventListener('click', function(e){
